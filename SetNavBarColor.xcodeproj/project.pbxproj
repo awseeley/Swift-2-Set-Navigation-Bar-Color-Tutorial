@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1860ECAD1C71A0E400A450FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860ECAC1C71A0E400A450FC /* AppDelegate.swift */; };
+		1860ECAF1C71A0E400A450FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860ECAE1C71A0E400A450FC /* ViewController.swift */; };
+		1860ECB21C71A0E400A450FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860ECB01C71A0E400A450FC /* Main.storyboard */; };
+		1860ECB41C71A0E400A450FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1860ECB31C71A0E400A450FC /* Assets.xcassets */; };
+		1860ECB71C71A0E400A450FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1860ECB51C71A0E400A450FC /* LaunchScreen.storyboard */; };
+		1860ECC21C71A0E400A450FC /* SetNavBarColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860ECC11C71A0E400A450FC /* SetNavBarColorTests.swift */; };
+		1860ECCD1C71A0E400A450FC /* SetNavBarColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1860ECCC1C71A0E400A450FC /* SetNavBarColorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1860ECBE1C71A0E400A450FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1860ECA11C71A0E400A450FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1860ECA81C71A0E400A450FC;
+			remoteInfo = SetNavBarColor;
+		};
+		1860ECC91C71A0E400A450FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1860ECA11C71A0E400A450FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1860ECA81C71A0E400A450FC;
+			remoteInfo = SetNavBarColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1860ECA91C71A0E400A450FC /* SetNavBarColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetNavBarColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860ECAC1C71A0E400A450FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1860ECAE1C71A0E400A450FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1860ECB11C71A0E400A450FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1860ECB31C71A0E400A450FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1860ECB61C71A0E400A450FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1860ECB81C71A0E400A450FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860ECBD1C71A0E400A450FC /* SetNavBarColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetNavBarColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860ECC11C71A0E400A450FC /* SetNavBarColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNavBarColorTests.swift; sourceTree = "<group>"; };
+		1860ECC31C71A0E400A450FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860ECC81C71A0E400A450FC /* SetNavBarColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetNavBarColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860ECCC1C71A0E400A450FC /* SetNavBarColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNavBarColorUITests.swift; sourceTree = "<group>"; };
+		1860ECCE1C71A0E400A450FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1860ECA61C71A0E400A450FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECBA1C71A0E400A450FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECC51C71A0E400A450FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1860ECA01C71A0E400A450FC = {
+			isa = PBXGroup;
+			children = (
+				1860ECAB1C71A0E400A450FC /* SetNavBarColor */,
+				1860ECC01C71A0E400A450FC /* SetNavBarColorTests */,
+				1860ECCB1C71A0E400A450FC /* SetNavBarColorUITests */,
+				1860ECAA1C71A0E400A450FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1860ECAA1C71A0E400A450FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1860ECA91C71A0E400A450FC /* SetNavBarColor.app */,
+				1860ECBD1C71A0E400A450FC /* SetNavBarColorTests.xctest */,
+				1860ECC81C71A0E400A450FC /* SetNavBarColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1860ECAB1C71A0E400A450FC /* SetNavBarColor */ = {
+			isa = PBXGroup;
+			children = (
+				1860ECAC1C71A0E400A450FC /* AppDelegate.swift */,
+				1860ECAE1C71A0E400A450FC /* ViewController.swift */,
+				1860ECB01C71A0E400A450FC /* Main.storyboard */,
+				1860ECB31C71A0E400A450FC /* Assets.xcassets */,
+				1860ECB51C71A0E400A450FC /* LaunchScreen.storyboard */,
+				1860ECB81C71A0E400A450FC /* Info.plist */,
+			);
+			path = SetNavBarColor;
+			sourceTree = "<group>";
+		};
+		1860ECC01C71A0E400A450FC /* SetNavBarColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1860ECC11C71A0E400A450FC /* SetNavBarColorTests.swift */,
+				1860ECC31C71A0E400A450FC /* Info.plist */,
+			);
+			path = SetNavBarColorTests;
+			sourceTree = "<group>";
+		};
+		1860ECCB1C71A0E400A450FC /* SetNavBarColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1860ECCC1C71A0E400A450FC /* SetNavBarColorUITests.swift */,
+				1860ECCE1C71A0E400A450FC /* Info.plist */,
+			);
+			path = SetNavBarColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1860ECA81C71A0E400A450FC /* SetNavBarColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860ECD11C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColor" */;
+			buildPhases = (
+				1860ECA51C71A0E400A450FC /* Sources */,
+				1860ECA61C71A0E400A450FC /* Frameworks */,
+				1860ECA71C71A0E400A450FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetNavBarColor;
+			productName = SetNavBarColor;
+			productReference = 1860ECA91C71A0E400A450FC /* SetNavBarColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1860ECBC1C71A0E400A450FC /* SetNavBarColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860ECD41C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColorTests" */;
+			buildPhases = (
+				1860ECB91C71A0E400A450FC /* Sources */,
+				1860ECBA1C71A0E400A450FC /* Frameworks */,
+				1860ECBB1C71A0E400A450FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1860ECBF1C71A0E400A450FC /* PBXTargetDependency */,
+			);
+			name = SetNavBarColorTests;
+			productName = SetNavBarColorTests;
+			productReference = 1860ECBD1C71A0E400A450FC /* SetNavBarColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1860ECC71C71A0E400A450FC /* SetNavBarColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860ECD71C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColorUITests" */;
+			buildPhases = (
+				1860ECC41C71A0E400A450FC /* Sources */,
+				1860ECC51C71A0E400A450FC /* Frameworks */,
+				1860ECC61C71A0E400A450FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1860ECCA1C71A0E400A450FC /* PBXTargetDependency */,
+			);
+			name = SetNavBarColorUITests;
+			productName = SetNavBarColorUITests;
+			productReference = 1860ECC81C71A0E400A450FC /* SetNavBarColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1860ECA11C71A0E400A450FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Seemu;
+				TargetAttributes = {
+					1860ECA81C71A0E400A450FC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1860ECBC1C71A0E400A450FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1860ECA81C71A0E400A450FC;
+					};
+					1860ECC71C71A0E400A450FC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1860ECA81C71A0E400A450FC;
+					};
+				};
+			};
+			buildConfigurationList = 1860ECA41C71A0E400A450FC /* Build configuration list for PBXProject "SetNavBarColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1860ECA01C71A0E400A450FC;
+			productRefGroup = 1860ECAA1C71A0E400A450FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1860ECA81C71A0E400A450FC /* SetNavBarColor */,
+				1860ECBC1C71A0E400A450FC /* SetNavBarColorTests */,
+				1860ECC71C71A0E400A450FC /* SetNavBarColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1860ECA71C71A0E400A450FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860ECB71C71A0E400A450FC /* LaunchScreen.storyboard in Resources */,
+				1860ECB41C71A0E400A450FC /* Assets.xcassets in Resources */,
+				1860ECB21C71A0E400A450FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECBB1C71A0E400A450FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECC61C71A0E400A450FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1860ECA51C71A0E400A450FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860ECAF1C71A0E400A450FC /* ViewController.swift in Sources */,
+				1860ECAD1C71A0E400A450FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECB91C71A0E400A450FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860ECC21C71A0E400A450FC /* SetNavBarColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1860ECC41C71A0E400A450FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860ECCD1C71A0E400A450FC /* SetNavBarColorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1860ECBF1C71A0E400A450FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1860ECA81C71A0E400A450FC /* SetNavBarColor */;
+			targetProxy = 1860ECBE1C71A0E400A450FC /* PBXContainerItemProxy */;
+		};
+		1860ECCA1C71A0E400A450FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1860ECA81C71A0E400A450FC /* SetNavBarColor */;
+			targetProxy = 1860ECC91C71A0E400A450FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1860ECB01C71A0E400A450FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860ECB11C71A0E400A450FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1860ECB51C71A0E400A450FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1860ECB61C71A0E400A450FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1860ECCF1C71A0E400A450FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1860ECD01C71A0E400A450FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1860ECD21C71A0E400A450FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetNavBarColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1860ECD31C71A0E400A450FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetNavBarColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1860ECD51C71A0E400A450FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SetNavBarColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SetNavBarColor.app/SetNavBarColor";
+			};
+			name = Debug;
+		};
+		1860ECD61C71A0E400A450FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SetNavBarColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SetNavBarColor.app/SetNavBarColor";
+			};
+			name = Release;
+		};
+		1860ECD81C71A0E400A450FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SetNavBarColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SetNavBarColor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1860ECD91C71A0E400A450FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SetNavBarColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Seemu.SetNavBarColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SetNavBarColor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1860ECA41C71A0E400A450FC /* Build configuration list for PBXProject "SetNavBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860ECCF1C71A0E400A450FC /* Debug */,
+				1860ECD01C71A0E400A450FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1860ECD11C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860ECD21C71A0E400A450FC /* Debug */,
+				1860ECD31C71A0E400A450FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1860ECD41C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860ECD51C71A0E400A450FC /* Debug */,
+				1860ECD61C71A0E400A450FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1860ECD71C71A0E400A450FC /* Build configuration list for PBXNativeTarget "SetNavBarColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860ECD81C71A0E400A450FC /* Debug */,
+				1860ECD91C71A0E400A450FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1860ECA11C71A0E400A450FC /* Project object */;
+}
